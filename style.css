@@ -8,6 +8,7 @@ h1{
 .flexible-container{
     display: flex;
     padding-left: 30px;
+    margin-bottom: 150px;
 }
 
 .up-baenner{
@@ -37,4 +38,27 @@ width: 50%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 20px black;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image:linear-gradient(gray, brown) ;
+    border-image-slice: 1;
+
+}
+#baby-web{
+        border-left: 5px solid;
+        border-image: linear-gradient(blue, brown);
+        border-image-slice: 1;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
 }
