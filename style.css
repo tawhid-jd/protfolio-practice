@@ -5,17 +5,36 @@ body{
 h1{
     font-size: 50px;
 }
+.flexible-container{
+    display: flex;
+    padding-left: 30px;
+}
+
+.up-baenner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
 .name-color{
     color: brown;
 }
-section{
-    display: flex;
-    padding-left: 50px;
-}
+
 .half-width{
 width: 50%;
 
 }
 .half-width img{
     width: 80%;
+}
+.link-prof{
+   text-decoration: none;
+   background-image: linear-gradient(rgb(246, 51, 2) , rgb(100, 32, 5) );
+   color: white;
+  padding: 10px 30px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.my-goal{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
