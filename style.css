@@ -60,5 +60,8 @@ width: 50%;
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    
+
+}
+footer{
+    text-align: center;
 }
